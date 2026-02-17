@@ -1,5 +1,6 @@
 # Bug Fix Explanation: OAuth2 Token Refresh Failure
-![Uploading Flow chart.png…]()
+
+<img width="8192" height="1736" alt="Flow chart" src="https://github.com/user-attachments/assets/99148f5c-2c90-44c3-8c72-6460824c8911" />
 
 ## Overview
 This document details a critical bug fix in the `Client` class within `app/http_client.py`. The issue prevented the application from refreshing expired or invalid OAuth2 tokens when they were stored as dictionaries (e.g., loaded from a config file) instead of `OAuth2Token` objects.
